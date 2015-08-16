@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA7FFBC71B809E4700A3520B /* TPFingerPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7FFBC61B809E4700A3520B /* TPFingerPresenter.m */; };
+		AA7FFBCC1B809E7F00A3520B /* NSMutableArray+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7FFBC91B809E7F00A3520B /* NSMutableArray+Queue.m */; };
+		AA7FFBCD1B809E7F00A3520B /* UIWindow+TweaksPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7FFBCB1B809E7F00A3520B /* UIWindow+TweaksPresentation.m */; };
 		AA97AD3C1B7FD516003F2ED9 /* NSMutableArrayQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA97AD3B1B7FD516003F2ED9 /* NSMutableArrayQueueTests.m */; };
 		AA97AD471B7FD748003F2ED9 /* TPPresentationTweakShakeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AA97AD461B7FD748003F2ED9 /* TPPresentationTweakShakeWindow.m */; };
 		AA97AD4F1B7FEFD6003F2ED9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA97AD4A1B7FEFD6003F2ED9 /* AppDelegate.m */; };
 		AA97AD511B7FEFD6003F2ED9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA97AD4C1B7FEFD6003F2ED9 /* Images.xcassets */; };
 		AA97AD521B7FEFD6003F2ED9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA97AD4E1B7FEFD6003F2ED9 /* ViewController.m */; };
 		AA97AD561B7FEFE0003F2ED9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA97AD541B7FEFE0003F2ED9 /* main.m */; };
-		AA97AD591B807F7C003F2ED9 /* TPFingerPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA97AD581B807F7C003F2ED9 /* TPFingerPresenter.m */; };
 		AA97AD5E1B8083AA003F2ED9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA97AD5A1B8083AA003F2ED9 /* LaunchScreen.xib */; };
 		AA97AD5F1B8083AA003F2ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA97AD5C1B8083AA003F2ED9 /* Main.storyboard */; };
-		AA97AD621B80857F003F2ED9 /* UIWindow+TweaksPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA97AD611B80857F003F2ED9 /* UIWindow+TweaksPresentation.m */; };
-		AA97AD651B808932003F2ED9 /* NSMutableArray+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = AA97AD641B808932003F2ED9 /* NSMutableArray+Queue.m */; };
 		F9ACABA25233612DFB61C7E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F772E25CD4C87C05C8A0B91 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +35,12 @@
 		13BBDCA5952BC0D17BB59EE1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8F772E25CD4C87C05C8A0B91 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14769FD760028D0E225F3DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AA7FFBC51B809E4700A3520B /* TPFingerPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPFingerPresenter.h; sourceTree = "<group>"; };
+		AA7FFBC61B809E4700A3520B /* TPFingerPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPFingerPresenter.m; sourceTree = "<group>"; };
+		AA7FFBC81B809E7F00A3520B /* NSMutableArray+Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Queue.h"; sourceTree = "<group>"; };
+		AA7FFBC91B809E7F00A3520B /* NSMutableArray+Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Queue.m"; sourceTree = "<group>"; };
+		AA7FFBCA1B809E7F00A3520B /* UIWindow+TweaksPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+TweaksPresentation.h"; sourceTree = "<group>"; };
+		AA7FFBCB1B809E7F00A3520B /* UIWindow+TweaksPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+TweaksPresentation.m"; sourceTree = "<group>"; };
 		AA97AD1C1B7FD515003F2ED9 /* TweaksPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweaksPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA97AD351B7FD516003F2ED9 /* TweaksPresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweaksPresentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA97AD3A1B7FD516003F2ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,14 +54,8 @@
 		AA97AD4E1B7FEFD6003F2ED9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TweaksPresentationExample/ViewController.m; sourceTree = SOURCE_ROOT; };
 		AA97AD531B7FEFE0003F2ED9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TweaksPresentationExample/Info.plist; sourceTree = SOURCE_ROOT; };
 		AA97AD541B7FEFE0003F2ED9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TweaksPresentationExample/main.m; sourceTree = SOURCE_ROOT; };
-		AA97AD571B807F7C003F2ED9 /* TPFingerPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPFingerPresenter.h; path = TweaksPresentationExample/TPFingerPresenter.h; sourceTree = SOURCE_ROOT; };
-		AA97AD581B807F7C003F2ED9 /* TPFingerPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPFingerPresenter.m; path = TweaksPresentationExample/TPFingerPresenter.m; sourceTree = SOURCE_ROOT; };
 		AA97AD5B1B8083AA003F2ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = TweaksPresentationExample/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
 		AA97AD5D1B8083AA003F2ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TweaksPresentationExample/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		AA97AD601B80857F003F2ED9 /* UIWindow+TweaksPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWindow+TweaksPresentation.h"; path = "TweaksPresentationExample/UIWindow+TweaksPresentation.h"; sourceTree = SOURCE_ROOT; };
-		AA97AD611B80857F003F2ED9 /* UIWindow+TweaksPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+TweaksPresentation.m"; path = "TweaksPresentationExample/UIWindow+TweaksPresentation.m"; sourceTree = SOURCE_ROOT; };
-		AA97AD631B808932003F2ED9 /* NSMutableArray+Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Queue.h"; path = "TweaksPresentationExample/NSMutableArray+Queue.h"; sourceTree = SOURCE_ROOT; };
-		AA97AD641B808932003F2ED9 /* NSMutableArray+Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Queue.m"; path = "TweaksPresentationExample/NSMutableArray+Queue.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +154,8 @@
 			children = (
 				AA97AD451B7FD748003F2ED9 /* TPPresentationTweakShakeWindow.h */,
 				AA97AD461B7FD748003F2ED9 /* TPPresentationTweakShakeWindow.m */,
-				AA97AD571B807F7C003F2ED9 /* TPFingerPresenter.h */,
-				AA97AD581B807F7C003F2ED9 /* TPFingerPresenter.m */,
+				AA7FFBC51B809E4700A3520B /* TPFingerPresenter.h */,
+				AA7FFBC61B809E4700A3520B /* TPFingerPresenter.m */,
 				AA97AD661B808D58003F2ED9 /* Categories */,
 			);
 			path = TweaksPresentation;
@@ -164,10 +164,10 @@
 		AA97AD661B808D58003F2ED9 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				AA97AD601B80857F003F2ED9 /* UIWindow+TweaksPresentation.h */,
-				AA97AD611B80857F003F2ED9 /* UIWindow+TweaksPresentation.m */,
-				AA97AD631B808932003F2ED9 /* NSMutableArray+Queue.h */,
-				AA97AD641B808932003F2ED9 /* NSMutableArray+Queue.m */,
+				AA7FFBC81B809E7F00A3520B /* NSMutableArray+Queue.h */,
+				AA7FFBC91B809E7F00A3520B /* NSMutableArray+Queue.m */,
+				AA7FFBCA1B809E7F00A3520B /* UIWindow+TweaksPresentation.h */,
+				AA7FFBCB1B809E7F00A3520B /* UIWindow+TweaksPresentation.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -316,12 +316,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA97AD471B7FD748003F2ED9 /* TPPresentationTweakShakeWindow.m in Sources */,
-				AA97AD651B808932003F2ED9 /* NSMutableArray+Queue.m in Sources */,
+				AA7FFBC71B809E4700A3520B /* TPFingerPresenter.m in Sources */,
 				AA97AD521B7FEFD6003F2ED9 /* ViewController.m in Sources */,
-				AA97AD621B80857F003F2ED9 /* UIWindow+TweaksPresentation.m in Sources */,
-				AA97AD591B807F7C003F2ED9 /* TPFingerPresenter.m in Sources */,
+				AA7FFBCD1B809E7F00A3520B /* UIWindow+TweaksPresentation.m in Sources */,
 				AA97AD561B7FEFE0003F2ED9 /* main.m in Sources */,
 				AA97AD4F1B7FEFD6003F2ED9 /* AppDelegate.m in Sources */,
+				AA7FFBCC1B809E7F00A3520B /* NSMutableArray+Queue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
